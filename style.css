@@ -1,0 +1,19 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+img{
+    width: 40px;
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.Formumario{
+    text-align: center;
+}
