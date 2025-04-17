@@ -11,12 +11,17 @@
         <img src="imagens/transferir-removebg-preview.png" alt="">
         <h1>Formulario Musical</h1>
     </header>
-    <br>
 
+    <div class="subcabeçalho">
+        <marquee behavior="" direction="">
+            <h2>Insira suas informações Musicais aqui!</h2>
+        </marquee>
+    </div>
+    <br>
     <section class="Formumario">
-        <form action="">
+        <form action="" name="forms1" id="forms1" onsubmit="return validar();">
             <label for="Nome"></label>
-            <input type="text" placeholder="Nome"> 
+            <input type="text" name="Nome" id="Nome" placeholder="Nome"> 
         
             <label for="Email"></label>
             <input type="text" placeholder="Email"> 
@@ -32,6 +37,8 @@
             <input type="text" placeholder="CPF">
             <br>
             <br>
+    </section>
+    <section class="Formumario2">
             <label for="Gênero Musical">Gênero Musical:</label>
             <select name="Gênero Musical">
                 <option value="">Rock</option>
@@ -84,89 +91,93 @@
             <input type="date" name="Fundação" id="Fundação" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Musica mais famosa">Musica mais famosa:</label>
+            <input type="text" name="Musica mais famosa" id="Musica mais famosa" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Album mais vendido">Album mais vendido:</label>
+            <input type="text" name="Album mais vendido" id="Album mais vendido" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Lançamento Album">Lançamento Album:</label>
+            <input type="date" name="Lançamento Album" id="Lançamento Album" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Nacionalidade">Nacionalidade:</label>
+            <input type="text" name="Nacionalidade" id="Nacionalidade" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Redes sociais">Redes sociais:</label>
+            <input type="text" name="Redes sociais" id="Redes sociais" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Influências musicais">Influências musicais:</label>
+            <input type="text" name="Influências musicais" id="Influências musicais" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Link para demos ou faixas gravadas">Link para demos ou faixas gravadas:</label>
+            <input type="text" name="Link para demos ou faixas gravadas" id="Link para demos ou faixas gravadas" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Estilo musical">Estilo musical:</label>
+            <input type="text"name="Estilo musical" id="Estilo musical" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Formação musical">Formação musical:</label>
+            <input type="text" name="Formação musical" id="Formação musical" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Tipo de performance (solo, banda, orquestra, etc.)">Tipo de performance (solo, banda, orquestra, etc.):</label>
+            <input type="text" name="Tipo de performance (solo, banda, orquestra, etc.)" id="Tipo de performance (solo, banda, orquestra, etc.)" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Instrumentos tocados">Instrumentos tocados:</label>
+            <input type="text" name="Instrumentos tocados" id="Instrumentos tocados" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Tipo de vocal">Tipo de vocal:</label>
+            <input type="text" name="Tipo de vocal" id="Tipo de vocal" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Possui contrato com gravadora?">Possui contrato com gravadora?</label>
+            <input type="text" name="Possui contrato com gravadora?" id="Possui contrato com gravadora?" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Fontes de inspiração musical">Fontes de inspiração musical:</label>
+            <input type="text" name="Fontes de inspiração musical" id="Fontes de inspiração musical" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Possui algum agente ou manager">Possui algum agente ou manager:</label>
+            <input type="text" name="Possui algum agente ou manager" id="Possui algum agente ou manager" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Participação em projetos musicais anteriores">Participação em projetos musicais anteriores:</label>
+            <input type="text" name="Participação em projetos musicais anteriores" id="Participação em projetos musicais anteriores" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Gênero musical preferido para composição">Gênero musical preferido para composição:</label>
+            <input type="text" name="Gênero musical preferido para composição" id="Gênero musical preferido para composição" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Faixa etária preferida para performances">Faixa etária preferida para performances:</label>
+            <input type="text" name="Faixa etária preferida para performances" id="Faixa etária preferida para performances" required>
             <br>
             <br>
-            <label for="CPF"></label>
-            <input type="text" placeholder="CPF">
+            <label for="Possui experiência com merchandising (camisetas, discos, etc.)">Possui experiência com merchandising (camisetas, discos, etc.):</label>
+            <input type="text" name="Possui experiência com merchandising (camisetas, discos, etc.)" id="Possui experiência com merchandising (camisetas, discos, etc.)" required>
             <br>
             <br>
-            <label for="CPF"></label>
+            <a href="https://youtu.be/bDUJM5xxTqc?si=pe_PGVhGfgEWZ4fk">pls professor escuta essa obra prima</a> 
+            <br>
+            <br>
+            <label for="Limpar Dados"></label>
             <input type="reset" value="Limpar Dados">
             <br>
             <br>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" onclick="validar();">
             <br>
             <br>
+            
         </form>
     </section>
 </div>

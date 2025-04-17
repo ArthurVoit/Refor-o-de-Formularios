@@ -3,6 +3,7 @@ header{
     color: white;
     text-align: center;
     display: flex;
+    padding: 0%;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,4 +17,18 @@ img{
 }
 .Formumario{
     text-align: center;
+}
+
+.subcabeçalho{
+    background-color: #1DB954;
+    padding-top: 0%;
+    text-align: center;
+}
+
+.Formumario2{
+    background-color: #1DB954;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
 }
